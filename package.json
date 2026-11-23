@@ -1,0 +1,20 @@
+{
+  "name": "deepseek2pdf",
+  "version": "0.1.0",
+  "description": "Turn a DeepSeek chat into a clean, readable PDF with correct math and no thinking sections.",
+  "type": "module",
+  "bin": {
+    "deepseek2pdf": "./bin/deepseek2pdf.js"
+  },
+  "scripts": {
+    "start": "node ./bin/deepseek2pdf.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "playwright-core": "^1.65.1"
+  },
+  "license": "MIT"
+}
